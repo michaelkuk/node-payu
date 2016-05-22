@@ -1,0 +1,34 @@
+{
+  "name": "node-payu",
+  "version": "0.1.0",
+  "description": "PayU client library",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zetta-michaelkuk/node-payu.git"
+  },
+  "keywords": [
+    "PayU",
+    "payment",
+    "gateway"
+  ],
+  "author": "Michael Kuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zetta-michaelkuk/node-payu/issues"
+  },
+  "homepage": "https://github.com/zetta-michaelkuk/node-payu#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.0.0"
+  },
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "request": "^2.72.0"
+  }
+}
